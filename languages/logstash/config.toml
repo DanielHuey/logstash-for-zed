@@ -1,6 +1,6 @@
 name = "Logstash Config"
 grammar = "logstash"
-path_suffixes = ["conf","config","pipeline.conf","l.conf"]
+path_suffixes = ["conf"]
 line_comments = ["# "]
 tab_size = 2
 # autoclose_before = ",=)}]"
@@ -8,7 +8,6 @@ tab_size = 2
 brackets = [
   { start = "{", end = "}", close = true, newline = true },
   { start = "[", end = "]", close = true, newline = true },
-  # { start = "(", end = ")", close = true, newline = true },
-  { start = "\"", end = "\"", close = true, newline = false },
-  { start = "'", end = "'", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["comment", "string"] },
+  { start = "'", end = "'", close = true, newline = false, not_in = ["comment", "string"] },
 ]
