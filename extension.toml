@@ -4,8 +4,8 @@ version = "0.0.1"
 schema_version = 1
 authors = ["Agani Daniel Strong <adhueywilan@gmail.com>"]
 description = "Logstash pipeline config file support"
-repository = "https://github.com/danielhuey/logstash-for-zed"
+repository = "https://github.com/StrongTheDev/logstash-for-zed"
 
 [grammars.logstash]
-repository = "https://github.com/danielhuey/tree-sitter-logstash"
+repository = "https://github.com/StrongTheDev/tree-sitter-logstash"
 commit = "d8abb4bdc1c37977b98ef515c0d067c878a5129a"
