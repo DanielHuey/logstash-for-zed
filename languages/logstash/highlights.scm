@@ -42,11 +42,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Plugin names when used as identifiers:
-(plugin_name) @variable
+(plugin_name) @function
 
 ; Expression keys and values:
-(expression_key) @variable
-(expression_value) @literal
+(expression_key) @type
+(expression_value) @variable
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Structural Nodes
